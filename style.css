@@ -1,23 +1,32 @@
+body {
+    background-color: #F9F9F9;
+}
 /* navbar */
-.navbar-brand {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
+.navbar-brand img {
+    width: 156px;
+    height: 63px;
 }
 
+/* Landing Page  */
 .jumbotron {
     background-color: #0F1134;
     background-size: cover;
-    height: 864px;
+    height: 730px;
+    width: 1440px;
     background-image: url('img/image-2.png');
 }
 
 .display-4 {
-    font-weight: 700;
-    font-size: 35px;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
 }
 
 .sub-display {
-    font-weight: 400;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
 }
 
 /* utility */
@@ -33,6 +42,7 @@
     width: 200px;
     border-radius: 10px;
     font-size: 24px;
+    margin-top: 67px;
 }
 
 .btn-join:hover {
@@ -41,8 +51,84 @@
     border-radius: 10px;
 }
 
+.btn-seek {
+    background-color: #F5C116;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.btn-seek:hover {
+    display: inline-block;
+    background-color: #cf9f00;
+    border-radius: 10px;
+}
+
+.btn-view {
+    background-color: #F5C116;
+    height: 50px;
+    width: 283px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 415px;
+}
+
+.btn-view:hover {
+    display: inline-block;
+    background-color: #cf9f00;
+    border-radius: 10px;
+}
+
+.free a:hover {
+    background-color: #cf9f00;
+    color: black;
+}
+
+/* Page Course */
+.jumbotron-2 {
+    background-color: #0F1134;
+    background-size: cover;
+    height: 559px;
+    width: 1280px;
+}
+
+.upgrade-skill {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46px;
+    color: white;
+    padding-top: 100px;
+}
+
+.dscrb-skill {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+input[type=text] {
+    width: 660px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #c4c4c4;
+    padding: 15px 20px 15px 17px;
+    margin-left: 225px;
+    margin-top: 100px;
+}
+
 /* desktop version */
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
 
     .navbar-brand,
     .nav-link {
@@ -73,17 +159,284 @@
     .display-4 {
         color: white !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-        margin-top: 225px;
-        margin-right: 605px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 46px;
+        margin-top: 170px;
     }
 
     .sub-display {
         font-size: 16px;
         color: white !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-        margin-top: 40px;
+        margin-top: 30px;
         margin-right: 605px;
         margin-bottom: 67px;
+    }
+
+    .img-cewek {
+        margin-top: 150px;
+        margin-left: 193px;
+    }
+
+    .dscrb-cwk {
+        margin-top: 170px;
+        /* top: 100px;
+        background: #F9F9F9;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px; */
+    }
+
+    .section-title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 58px;
+        text-align: center;
+        color: #212121;
+        margin-top: 200px;
+    }
+
+    .pop-course1 {
+        background: #F9F9F9;
+        border: 1px solid rgba(33, 33, 33, 0.1);
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 75px;
+        height: 436px;
+        margin-top: 43px;
+    }
+
+    .pop-course2 {
+        background: #F9F9F9;
+        border: 1px solid rgba(33, 33, 33, 0.1);
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 75px;
+        height: 436px;
+        margin-top: 43px;
+        margin-left: 20px;
+    }
+
+    .pop-course3 {
+        background: #F9F9F9;
+        border: 1px solid rgba(33, 33, 33, 0.1);
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 75px;
+        height: 436px;
+        margin-top: 43px;
+        margin-left: 20px;
+    }
+
+    .ds-course {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #212121;
+        margin-top: 30px;
+    }
+
+    .foto {
+        height: 271px;
+        width: 231px;
+        /* box-shadow: inset 10px 10px 4px rgba(0, 0, 0, 0.25); */
+        border-radius: 10px;
+    }
+
+    .free a {
+        border: 1px solid #121212;
+        box-sizing: border-box;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 15px;
+        width: 89px;
+        height: 24px;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 46px;
+        margin-top: 150px;
+        color: #212121;
+    }
+
+    .smalltron {
+        background-color: #0F1134;
+        margin-top: 35px;
+        width: 1440px;
+        height: 290px;
+    }
+
+    .foto-testi {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin-top: 80px;
+    }
+    .name-age {
+        width: 318px;
+        height: 30px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #F9F9F9;
+        margin-top: 94px;
+    }
+
+    .subdscrb {
+        width: 938px;
+        height: 48px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F9F9F9;
+        margin-top: 28px;
+    }
+
+    .we-have {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 46px;
+        text-align: center;
+        color: #212121;
+        margin-top: 150px;
+    }
+
+    .angka {
+        margin-top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 49px;
+        line-height: 73px;
+        margin-top: -90px;
+    }
+
+    .btm-angka {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 12px;
+    }
+
+    .footertron {
+        width: 1440px;
+        height: 345px;
+        background-color: #0F1134;
+        margin-top: 150px;
+    }
+
+    .f-menu {
+        color: #F9F9F9;
+        margin-top: 42px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        height: 30px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #F9F9F9;
+        display: block;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .f-sosmed {
+        color: #F9F9F9;
+        margin-top: 42px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        height: 30px;
+    }
+
+    .ssmd {
+        float:left; margin:0 9px 3px 0;
+        width: 25px;
+        height: 25px;
+    }
+
+    .sosmed a {
+        text-decoration: none;
+        color: #F9F9F9;
+        display: block;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .f-dropemail {
+        color: #F9F9F9;
+        margin-top: 42px;
+        margin-right: 261px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        height: 30px;
+    }
+
+    input[type=email] {
+        width: 507px;
+        height: 50px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: Poppins;
+        background-color: #FFFFFF;
+        padding: 15px 20px 15px 17px;
+        margin-top: 34px;
+    }
+
+    .btn-submit {
+        background: #F5C116;
+        border-radius: 10px;
+        width: 141px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    
+    #footer{
+        color: #F9F9F9;
+        text-align: center;
+        font-size: 16px;
+        font-family: Poppins;
+        background-color: #0F1134;
+        height: 40px;
     }
 }
 
